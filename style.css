@@ -3,3 +3,15 @@ body {
   height: 100%;
   margin: 0;
 }
+h1, nav {text-align: center;}
+nav a {background: gray}
+figure{text-align: center;} figure img {width: 700px;}
+section#featured-property p {text-align: center; margin: 0px 500px; line-height: 22px;}
+section#details {
+  margin-top: 70px;
+  background: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center
+}
